@@ -21,7 +21,7 @@ namespace QuoteGenerator.Controllers
             {
                 _mailKitService.SendQuote(emailDetails);
 
-                return View("Index");
+                return RedirectToAction("Index", "Home");
             }
 
             catch(Exception ex)

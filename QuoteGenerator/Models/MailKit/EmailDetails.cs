@@ -2,6 +2,10 @@
 {
     public class EmailDetails
     {
+        public EmailDetails()
+        {
+        }
+
         public EmailDetails(string toName, string toEmail, string fromName, string quote)
         {
             ToName = toName;
